@@ -1,0 +1,30 @@
+1-) Proje Test Etme: {{Test Felsefesi}}
+	=>1.1-) Proje neden test edilir?
+	=>1.2-) Yazılım test teknikleri(Kalıpları, Yöntemleri)
+		=>1.2.1-) Unit Test
+		=>1.2.2-) Integration Test
+		=>1.2.3-) End to End Test
+	=>1.3-) [Opsiyonel] Örnek Senaryolar
+
+2-) Angular.Js Projelerini Test Etme
+	=>2.1-) Angular Testi için Alternatifler
+	=>2.2-) Gerekli Araçlar ve Ortamın Hazırlanması
+	=>2.3-) Angular ile Unit Test {{Daha iyi bir isim bulunmalı}}
+	
+		=>2.3.1-) Basit Testler  # Bolca örnek. Zaten küçük örnekler.
+			=>2.3.1.1-) Test Scripti.
+			=>2.3.1.2-) Genel Şablon
+			=>2.3.1.3-) Neler Test Edilebilir [Örnekler Burada Olacak]
+			=>2.3.1.4-) Testi Okuma
+			=>2.3.1.5-) [Opsiyonel] Diğer fonksiyonlar.
+			
+		
+	=>2.4-) Angular ile Integration Test {{Daha iyi bir isim bulunmalı}}  # Kendim ayırdım ama umarım doğru bir şey yaptım.
+		=>2.4.1-) Angular Componentlerinin Testi {{Türkçeleştirilmeli}} 
+			=>2.3.1.1-) Genel Şablon Tasarımı  # Arrange, act, assert
+			=>2.3.1.2-) Test  # Basit bir test örneği (normal test tipinde)
+			=>2.3.1.3-) beforeEach(), afterEach(), beforeAll() ve afterAll metodları {{Ayrı bir başlık olabilir}}
+			=>2.3.1.4-) testBed kavramı 
+			=>2.3.1.5-) Test  # Gerçek bir component testi.
+	
+		
