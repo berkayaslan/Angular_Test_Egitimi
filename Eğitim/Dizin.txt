@@ -11,20 +11,43 @@
 	=>2.2-) Gerekli Araçlar ve Ortamın Hazırlanması
 	=>2.3-) Angular ile Unit Test {{Daha iyi bir isim bulunmalı}}
 	
-		=>2.3.1-) Basit Testler  # Bolca örnek. Zaten küçük örnekler.
-			=>2.3.1.1-) Test Scripti.
+		=>2.3.1-) Basit Testler (Angular Araçları Olmadan) # Bolca basit örnek. Zaten küçük örnekler.
+			=>2.3.1.1-) Test Scripti
 			=>2.3.1.2-) Genel Şablon
-			=>2.3.1.3-) Neler Test Edilebilir [Örnekler Burada Olacak]
-			=>2.3.1.4-) Testi Okuma
-			=>2.3.1.5-) [Opsiyonel] Diğer fonksiyonlar.
+			=>2.3.1.3-) Neler Test Edilebilir [Örnekler Burada Olacak]  # Arrange, act, assert
+			=>2.3.1.4-) beforeEach(), afterEach(), beforeAll() ve afterAll metodları {{Ayrı bir başlık olabilir}}
+			=>2.3.1.5-) Testi Okuma
+			=>2.3.1.6-) [Opsiyonel] Diğer fonksiyonlar.
 			
 		
-	=>2.4-) Angular ile Integration Test {{Daha iyi bir isim bulunmalı}}  # Kendim ayırdım ama umarım doğru bir şey yaptım.
+	=>2.4-) Angular Araçları ile Test {{Daha iyi bir isim bulunmalı}}  # Kendim ayırdım ama umarım doğru bir şey yaptım.
 		=>2.4.1-) Angular Componentlerinin Testi {{Türkçeleştirilmeli}} 
-			=>2.3.1.1-) Genel Şablon Tasarımı  # Arrange, act, assert
-			=>2.3.1.2-) Test  # Basit bir test örneği (normal test tipinde)
-			=>2.3.1.3-) beforeEach(), afterEach(), beforeAll() ve afterAll metodları {{Ayrı bir başlık olabilir}}
-			=>2.3.1.4-) testBed kavramı 
-			=>2.3.1.5-) Test  # Gerçek bir component testi.
+			=>2.4.1.1-) Genel Şablon Tasarımı  
+			=>2.4.1.2-) testBed kavramı 
+			=>2.4.1.3-) Basit Angular Component Testi
+			=>2.4.1.4-) Değişiklikleri test içinde izleme  # detectChanges()
+
+		=>2.4.2-) İşin İçine Servisler Girince
+			=>2.4.2.1-) Teste Angular servisi dahil etme
+				=>2.4.2.1.1-) Asnync Service											####  !!!!! REVIEW !!!!!
+				=>2.4.2.1.2-) Sync Service
+
+		=>2.4.3-) Giriş ve Çıkışlar ile test
+		
+		=>2.4.4-) Yönlendirilmiş (Routed) Componentlerin Teste Katılması				####  !!!!! REVIEW !!!!!
+
+		=>2.4.5-) Bölüme Genel Bakış
+			=>2.4.5.1-) Angular Test Araçları ile testlerin birleşimi
+			=>2.4.5.2-) Angular Test Araçlarına genel bakış
 	
+
+
+[OPSİYONEL] Protractor ile E2E Test [OPSİYONEL] 
+
+	
+3-) Gerçek Bir Test Projesi
+	3.1-) Proje tanıtımı										### Felsefeye aykırı mı?
+	3.2-) Proje testlerini yazmak
+	3.3-) Testleri izlemek.
+
 		
